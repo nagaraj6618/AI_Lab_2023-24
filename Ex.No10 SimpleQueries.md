@@ -35,7 +35,8 @@ eats(sue, X) :-
 ```
 
 ### Output:
-![image](https://github.com/nagaraj6618/AI_Lab_2023-24/assets/127173574/84d2837b-f05d-4cf8-9a5c-c7d351bfb5a3)
+![1](https://github.com/nagaraj6618/AI_Lab_2023-24/assets/127173574/4256ffd4-c033-4bad-af75-3f75340e8504)
+
 
 ### Task 2:
 Consider the following facts and represent them in predicate form: <br>              
@@ -56,7 +57,8 @@ in_department(bk301, have_fun).
 ```
 
 ### Output:
-![image](https://github.com/nagaraj6618/AI_Lab_2023-24/assets/127173574/fef062a7-ec72-4ba1-a499-ea086827969d)
+![2](https://github.com/nagaraj6618/AI_Lab_2023-24/assets/127173574/786837c1-9441-4239-9579-87b1bb490746)
+
 
 ### Task 3:
 Consider the statement <br> 
@@ -88,7 +90,8 @@ american(west).
 ```
 
 ### Output:
-![image](https://github.com/nagaraj6618/AI_Lab_2023-24/assets/127173574/db8f1384-a3e0-40ca-8d92-edb1367ea3a4)
+![3](https://github.com/nagaraj6618/AI_Lab_2023-24/assets/127173574/47d484fe-48f4-4876-8737-14708677c9d9)
+
 
 ### Result:
 Thus the prolog programs were executed successfully and the answer of query was found.
