@@ -15,7 +15,7 @@ To write a logic program to design a circuit like half adder and half subtractor
 
 ### Program:
   Half Adder:
-  ```prolag
+  ```py
 half_adder(A, B, Sum, Carry) :-
     xor(A, B, Sum),
     and(A, B, Carry).
@@ -32,7 +32,7 @@ and(1, 1, 1).
 
 ```
   Half subtracter:
-  ```prolag
+  ```py
 half_sub(A, B, Dif, Brr) :-
     xor(A, B, Dif),
     not(A, X),
