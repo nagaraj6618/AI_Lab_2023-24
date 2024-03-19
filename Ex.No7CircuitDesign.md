@@ -14,7 +14,44 @@ To write a logic program to design a circuit like half adder and half subtractor
 8. Stop the program.
 
 ### Program:
+  Half Adder:
+  ```prolag
+half_adder(A, B, Sum, Carry) :-
+    xor(A, B, Sum),
+    and(A, B, Carry).
 
+xor(0, 0, 0).
+xor(0, 1, 1).
+xor(1, 0, 1).
+xor(1, 1, 0).
+
+and(0, 0, 0).
+and(0, 1, 0).
+and(1, 0, 0).
+and(1, 1, 1).
+
+```
+  Half subtracter:
+  ```prolag
+half_sub(A, B, Dif, Brr) :-
+    xor(A, B, Dif),
+    not(A, X),
+    and(X, B, Brr).
+
+xor(0, 0, 0).
+xor(0, 1, 1).
+xor(1, 0, 1).
+xor(1, 1, 0).
+
+and(0, 0, 0).
+and(0, 1, 0).
+and(1, 0, 0).
+and(1, 1, 1).
+
+not(1, 0).
+not(0, 1).
+
+```
 
 
 
@@ -26,6 +63,8 @@ To write a logic program to design a circuit like half adder and half subtractor
 
 
 ### Output:
+![image](https://github.com/nagaraj6618/AI_Lab_2023-24/assets/127173574/28fd7e12-87e3-49cc-88c4-cd50114b83bc)
+![image](https://github.com/nagaraj6618/AI_Lab_2023-24/assets/127173574/29c41ed7-befa-43c1-aaf7-5e63e8cc4b10)
 
 
 
