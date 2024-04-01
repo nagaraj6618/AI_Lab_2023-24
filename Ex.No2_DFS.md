@@ -12,7 +12,7 @@ To write a python program to implement Depth first Search.
 6. Call the dfs function by passing arguments visited, graph and starting node.
 7. Stop the program.
 ### Program:
-```
+```py
 graph = {
   '5' : ['3','7'],
   '3' : ['2', '4'],
