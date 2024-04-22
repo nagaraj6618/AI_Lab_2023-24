@@ -1,9 +1,18 @@
-# Ex.No: 10 Learning – Use Supervised Learning  
-### DATE:                                                                            
-### REGISTER NUMBER : 
+# Ex.No: 13 Learning – Use Supervised Learning  
+### DATE: 22/04/24                                                                           
+### REGISTER NUMBER : 212221040109
 ### AIM: 
-To write a program to train the classifier for -----------------.
+To write a program to train the classifier for diabeties.
 ###  Algorithm:
+Step 1: Load the diabetes dataset.<br>
+Step 2: Split the dataset into features (input) and target variable (output).<br>
+Step 3: Split the data into training and testing sets.<br>
+Step 4: Scale the features using StandardScaler.<br>
+Step 5: Train a neural network classifier on the training data.<br>
+Step 6: Evaluate the classifier's accuracy on both training and testing data.<br>
+Step 7: Create a function to predict diabetes based on user input.<br>
+Step 8: Launch a Gradio interface for users to input their data and get a prediction.<br>
+Step 9: Stop the program.<br>
 ### Program:
 ```py
 #import packages
