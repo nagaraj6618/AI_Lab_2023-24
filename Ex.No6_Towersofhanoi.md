@@ -1,5 +1,5 @@
 # Ex.No: 6   Logic Programming – Tower of Hanoi 
-### DATE: 18/03/24                                                                           
+### DATE: 11/03/24                                                                           
 ### REGISTER NUMBER : 212221040109
 ### AIM: 
 To  write  a logic program  to solve Towers of Hanoi problem  using SWI-PROLOG. 
